@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle shell-scripts",
+        "command": "shell-scripts:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "shell-scripts",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "shell-scripts:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
