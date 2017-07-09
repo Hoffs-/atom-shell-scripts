@@ -1,0 +1,11 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "no-console": 0,
+    "no-unused-vars": [1, {"vars": "local", "args": "none"}],
+    "no-underscore-dangle": 0
+    }
+}

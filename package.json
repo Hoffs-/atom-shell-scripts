@@ -3,8 +3,7 @@
   "main": "./lib/shell-scripts",
   "version": "0.0.0",
   "description": "User defined shell scripts in atom.",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "shell-scripts:toggle"
   },
@@ -14,5 +13,13 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "atom": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.2",
+    "eslint-plugin-import": "^2.6.1",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0"
   }
 }
