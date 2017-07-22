@@ -1,0 +1,36 @@
+{
+  "general": {
+    "type": "object",
+    "title": "General settings",
+    "properties": {
+      "showNotification": {
+        "type": "boolean",
+        "title": "Show notifications about progress of current command",
+        "default": true,
+        "order": 1
+      }
+    },
+    "order": 1
+  },
+  "development": {
+    "type": "object",
+    "title": "Development related settings",
+    "properties": {
+      "logToFile": {
+        "type": "boolean",
+        "title": "Log to file",
+        "description": "Should command execution be logged to a file",
+        "default": false,
+        "order": 1
+      },
+      "logToConsole": {
+        "type": "boolean",
+        "title": "Log to console",
+        "description": "Should command execution be logged to the console",
+        "default": false,
+        "order": 1
+      }
+    },
+    "order": 2
+  }
+}
